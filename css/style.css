@@ -163,6 +163,9 @@ body {
     animation: traslacion 1.8s forwards;
     animation-delay: 1s;
   }
+  .econtainer .hola:hover {
+    margin-left: 0;
+  }
   .econtainer .soy {
     color: transparent;
     font-size: 3.7em;
@@ -175,6 +178,9 @@ body {
     animation: traslacion2 1.8s forwards;
     animation-delay: 1.5s;
   }
+  .econtainer .soy:hover {
+    margin-left: 0;
+  }
   .econtainer .juan {
     color: transparent;
     font-size: 3.7em;
@@ -186,6 +192,9 @@ body {
     transition: margin-left 0.5s ease;
     animation: traslacion2 1.8s forwards;
     animation-delay: 2s;
+  }
+  .econtainer .juan:hover {
+    margin-left: 0;
   }
   .econtainer .touch {
     display: inline-block;
