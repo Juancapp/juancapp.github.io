@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+}
+
+.video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: -2;
+}
+
+.cortina {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: black;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 33%;
+  z-index: 1;
+}
+.header a .juan {
+  position: fixed;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  top: 12%;
+  left: 80%;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.header a .juan:hover {
+  transform: translateX(-30%);
+}
+
+.sec-frase {
+  height: max-content;
+  position: relative;
+  left: 20%;
+  margin-bottom: 13rem;
+}
+.sec-frase h1 {
+  text-align: left;
+  font-size: 100px;
+  font-weight: 800;
+  color: white;
+}
+
+.sec-carta {
+  width: 100%;
+  height: max-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-carta .carta {
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  height: 33%;
+  position: relative;
+}
+
+/*# sourceMappingURL=info.css.map */
