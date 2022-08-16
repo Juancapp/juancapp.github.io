@@ -133,13 +133,8 @@ $bg-color: #000503;
     }
 
     .img-fondo {
-        margin-right: 40%;
+        margin-right: 15em;
         opacity: 0.9;
-
-        img {
-            width: 45em;
-            height: auto;
-        }
     }
 
     .video {
@@ -207,14 +202,11 @@ $bg-color: #000503;
         }
         .touch {
             display: inline-block;
-            position: absolute;
             font-weight: 500;
-            width: max-content;
-            text-align: center;
             align-self: center;
             margin-right: 8%;
             color: white;
-            margin-bottom: -80%;
+            bottom: 3em;
         }
     }
     .econtainer.active p.hola {
