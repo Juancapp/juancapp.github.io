@@ -56,7 +56,7 @@ body {
   cursor: pointer;
   text-align: left;
   transition: margin-left 0.5s ease;
-  animation: traslacion 1.8s forwards;
+  animation: traslacion 1.1s forwards;
   animation-delay: 1s;
 }
 .econtainer .hola:hover {
@@ -71,7 +71,7 @@ body {
   cursor: pointer;
   text-align: left;
   transition: margin-left 0.5s ease;
-  animation: traslacion2 1.8s forwards;
+  animation: traslacion2 1.1s forwards;
   animation-delay: 1.5s;
 }
 .econtainer .soy:hover {
@@ -86,15 +86,11 @@ body {
   cursor: pointer;
   text-align: left;
   transition: margin-left 0.5s ease;
-  animation: traslacion2 1.8s forwards;
+  animation: traslacion2 1.1s forwards;
   animation-delay: 2s;
 }
 .econtainer .juan:hover {
   margin-left: 4rem;
-}
-
-.touch {
-  display: none;
 }
 
 @keyframes traslacion {
@@ -127,21 +123,15 @@ body {
     position: fixed;
     z-index: -2;
   }
-  .cortina {
-    position: fixed;
-    background-color: black;
-    opacity: 0.9;
-    z-index: -1;
-  }
-  .btn-touch {
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    position: absolute;
-  }
   .vacio {
-    height: 25%;
+    height: 10em;
+  }
+  .touch {
+    display: inline-block;
+    color: white;
+    margin-left: -8%;
+    font-size: 1.3em;
+    align-self: center;
   }
   .econtainer {
     position: relative;
@@ -159,7 +149,7 @@ body {
     cursor: pointer;
     text-align: left;
     transition: margin-left 0.5s ease;
-    animation: traslacion 1.8s forwards;
+    animation: traslacion 1.1s forwards;
     animation-delay: 1s;
   }
   .econtainer .hola:hover {
@@ -172,7 +162,7 @@ body {
     cursor: pointer;
     text-align: left;
     transition: margin-left 0.5s ease;
-    animation: traslacion2 1.8s forwards;
+    animation: traslacion2 1.1s forwards;
     animation-delay: 1.5s;
   }
   .econtainer .soy:hover {
@@ -185,30 +175,22 @@ body {
     cursor: pointer;
     text-align: left;
     transition: margin-left 0.5s ease;
-    animation: traslacion2 1.8s forwards;
+    animation: traslacion2 1.1s forwards;
     animation-delay: 2s;
   }
   .econtainer .juan:hover {
     margin: 0;
   }
-  .econtainer .touch {
-    display: inline-block;
-    font-weight: 500;
-    align-self: center;
-    margin-right: 8%;
-    color: white;
-    bottom: 3em;
-  }
   .econtainer.active p.hola {
-    animation: traslacionWhenActive 1.8s forwards;
+    animation: traslacionWhenActive 1.1s forwards;
     animation-delay: 0.3s;
   }
   .econtainer.active p.soy {
-    animation: traslacionWhenActive 1.8s forwards;
+    animation: traslacionWhenActive 1.1s forwards;
     animation-delay: 0.8s;
   }
   .econtainer.active p.juan {
-    animation: traslacionWhenActive2 1.8s forwards;
+    animation: traslacionWhenActive2 1.1s forwards;
     animation-delay: 1.3s;
   }
   @keyframes traslacionWhenActive {
