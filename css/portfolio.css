@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,8 +8,18 @@
 body {
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
+}
+
+#particles-js {
   background-color: #000503;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+#particles-js .particles-js-canvas-el {
+  position: fixed !important;
 }
 
 .header {
@@ -19,7 +29,7 @@ body {
 .header .juan {
   position: fixed;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 600;
   margin-top: 8%;
   margin-left: 80%;
@@ -27,10 +37,11 @@ body {
   transition: transform 0.5s ease;
 }
 .header .juan:hover {
-  transform: translateX(-30%);
+  transform: translateX(-15%);
 }
 
 .econtainer {
+  width: min-content;
   margin-left: 15%;
   position: relative;
   display: flex;
@@ -45,7 +56,7 @@ body {
   transition: margin-left 0.7s;
 }
 .econtainer .link:hover {
-  margin-left: 6rem;
+  margin-left: 3rem;
 }
 .econtainer .link .title {
   color: white;
@@ -61,16 +72,19 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .juan {
+  .header .juan {
     position: fixed;
+    display: inline-block;
     color: white;
     font-size: 1.3em;
     font-weight: 600;
-    margin-left: 5%;
-    top: center;
-    left: center;
+    margin-top: 1.65em;
+    margin-left: 12em;
     cursor: pointer;
     transition: transform 0.5s ease;
+  }
+  .header .juan:hover {
+    transform: translateX(0%);
   }
   .econtainer {
     margin-left: 8%;
@@ -84,6 +98,9 @@ body {
   .econtainer .link {
     cursor: pointer;
     transition: margin-left 0.7s;
+  }
+  .econtainer .link:hover {
+    margin-left: 0rem;
   }
   .econtainer .link .title {
     color: white;

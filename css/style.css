@@ -103,7 +103,7 @@ body {
   }
   100% {
     color: white;
-    transform: translateY(-10rem);
+    transform: translateY(-8rem);
   }
 }
 @keyframes traslacion2 {
@@ -113,7 +113,7 @@ body {
   }
   100% {
     color: #00c483;
-    transform: translateY(-10rem);
+    transform: translateY(-8rem);
   }
 }
 @media only screen and (max-width: 768px) {
@@ -203,7 +203,7 @@ body {
     }
     100% {
       color: white;
-      transform: translateY(-10rem);
+      transform: translateY(-8rem);
     }
   }
   @keyframes traslacionWhenActive2 {
@@ -213,7 +213,7 @@ body {
     }
     100% {
       color: #00c483;
-      transform: translateY(-10rem);
+      transform: translateY(-8rem);
     }
   }
 }
