@@ -29,8 +29,8 @@ $bg-color: #000503;
 #particles-js {
     background-color: $bg-color;
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     z-index: -1;
 
@@ -104,8 +104,8 @@ $bg-color: #000503;
             font-size: 1.3em;
             font-weight: 600;
             margin-top: 1.65em;
-            margin-left: 12em;
             cursor: pointer;
+            margin-left: 12em;
             transition: transform 0.5s ease;
     
             &:hover {

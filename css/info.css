@@ -47,7 +47,7 @@ body a {
 }
 
 .sec-frase {
-  height: max-content;
+  height: min-content;
   position: relative;
   left: 20%;
   margin-bottom: 13rem;
@@ -81,6 +81,9 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .header .juan {
     position: fixed;
     display: inline-block;
@@ -88,7 +91,7 @@ footer {
     font-size: 1.3em;
     font-weight: 600;
     margin-top: 1.65em;
-    margin-left: 12em;
+    margin-left: 13em;
     cursor: pointer;
     transition: transform 0.5s ease;
   }
@@ -98,7 +101,8 @@ footer {
   .sec-frase {
     height: min-content;
     position: relative;
-    left: 5%;
+    left: 0%;
+    padding-left: 5%;
     margin-bottom: 13rem;
   }
   .sec-frase h1 {
@@ -110,13 +114,15 @@ footer {
   .sec-carta {
     width: 100%;
     display: flex;
+    justify-content: center;
   }
   .sec-carta .carta {
     color: white;
     display: flex;
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 90%;
+  }
+  .sec-carta .carta h2 {
+    margin-bottom: 1em;
   }
 }
 
