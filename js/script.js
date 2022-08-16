@@ -29,15 +29,15 @@ $soy.addEventListener('mouseout', over)
 $juan.addEventListener('mouseout', over)
 
 $hola.addEventListener('click', () => {
-	window.open('../html/info.html', '_blank')
+	window.open('../html/info.html')
 })
 
 $soy.addEventListener('click', () => {
-	window.open('../html/portfolio.html', '_blank')
+	window.open('../html/portfolio.html')
 })
 
 $juan.addEventListener('click', () => {
-	window.open('../html/contacto.html', '_blank')
+	window.open('../html/contacto.html')
 })
 
 var mobile = {
