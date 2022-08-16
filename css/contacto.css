@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Fira Code", monospace;
 }
 
 body {
@@ -16,41 +16,34 @@ body a {
   text-decoration: none;
 }
 
-.video {
+#particles-js {
+  background-color: #000503;
+  position: fixed;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  z-index: -2;
-}
-
-.cortina {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background-color: black;
-  opacity: 0.9;
+  top: 0;
   z-index: -1;
+}
+#particles-js .particles-js-canvas-el {
+  position: fixed !important;
 }
 
 .header {
-  position: relative;
   width: 100%;
   height: 33%;
-  z-index: 1;
 }
-.header a .juan {
+.header .juan {
   position: fixed;
   color: white;
-  font-size: 22px;
+  font-size: 1.5em;
   font-weight: 600;
-  top: 12%;
-  left: 80%;
+  margin-top: 8%;
+  margin-left: 80%;
   cursor: pointer;
   transition: transform 0.5s ease;
 }
-.header a .juan:hover {
-  transform: translateX(-30%);
+.header .juan:hover {
+  transform: translateX(-15%);
 }
 
 .sec-frase {
@@ -97,10 +90,58 @@ body a {
   transform: translateX(2%);
 }
 
-footer {
-  width: 100%;
+.footer {
   height: 33%;
-  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header .juan {
+    position: fixed;
+    display: inline-block;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 1.65em;
+    margin-left: 13em;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .header .juan:hover {
+    transform: translateX(0%);
+  }
+  .sec-frase {
+    height: min-content;
+    position: relative;
+    left: 0%;
+    padding-left: 5%;
+    margin-bottom: 13rem;
+  }
+  .sec-frase h1 {
+    width: 60%;
+    text-align: left;
+    font-size: 2.6em;
+    font-weight: 800;
+    color: white;
+  }
+  .sec-carta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .sec-carta .carta {
+    color: white;
+    display: flex;
+    width: 90%;
+  }
+  .sec-carta .carta h2 {
+    margin-bottom: 1em;
+  }
+  .sec-carta .carta span {
+    margin-bottom: 10em;
+  }
 }
 
 /*# sourceMappingURL=contacto.css.map */

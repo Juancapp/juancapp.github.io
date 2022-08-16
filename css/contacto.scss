@@ -18,50 +18,44 @@ body {
     }
 }
 
-.video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    z-index: -2
-}
-
-.cortina {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-color: black;
-    opacity: 0.9;
-    z-index: -1;
-}
 
 $color-1: #007cc4;
 $color-2: #00c483;
+$bg-color: #000503;
+
+#particles-js {
+    background-color: $bg-color;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+
+    .particles-js-canvas-el {
+        position: fixed !important;
+    }
+}
 
 .header {
-    position: relative;
     width: 100%;
     height: 33%;
-    z-index: 1;
 
-    a {
-        .juan {
-            position: fixed;
-            color: white;
-            font-size: 22px;
-            font-weight: 600;
-            top: 12%;
-            left: 80%;
-            cursor: pointer;
-            transition: transform 0.5s ease;
-            
-            &:hover {
-            transform: translateX(-30%);
-            }
-        }    
+    .juan {
+        position: fixed;
+        color: white;
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-top: 8%;
+        margin-left: 80%;
+        cursor: pointer;
+        transition: transform 0.5s ease;
+        
+        &:hover {
+        transform: translateX(-15%);
+        }
     }
-
 }
+
 
 .sec-frase {
     height: max-content;
@@ -112,8 +106,65 @@ $color-2: #00c483;
     }
 }
 
-footer {
-    width: 100%;
+.footer {
     height: 33%;
-    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        .juan {
+            position: fixed;
+            display: inline-block;
+            color: white;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-top: 1.65em;
+            margin-left: 13em;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+    
+            &:hover {
+                transform: translateX(0%);
+            }
+        }
+    }
+
+    .sec-frase {
+        height: min-content;
+        position: relative;
+        left: 0%;
+        padding-left: 5%;
+        margin-bottom: 13rem;
+        h1 {
+            width: 60%;
+            text-align: left;
+            font-size: 2.6em;
+            font-weight: 800;
+            color: white;
+        }
+    }
+
+    .sec-carta {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        .carta {
+            color: white;
+            display: flex;
+            width: 90%;
+
+            h2 {
+                margin-bottom: 1em;
+            }
+
+            span {
+                margin-bottom: 10em;
+            }
+        }
+    }
 }
