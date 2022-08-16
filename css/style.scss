@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -23,7 +24,7 @@ $bg-color: #000503;
     color: transparent;
     font-size: 180px;
     font-weight: bold;
-    margin-bottom: -4.3rem;
+    margin-bottom: -3rem;
     margin-top: -1.1rem;
     cursor: pointer;
     text-align: left;
@@ -87,11 +88,11 @@ $bg-color: #000503;
         animation: traslacion2 1.8s forwards;
         animation-delay: 2s;
     }
-
-    .touch {
-        display: none;
-    }
 }  
+
+.touch {
+    display: none;
+}
 
 
 @keyframes traslacion{
@@ -121,20 +122,24 @@ $bg-color: #000503;
 //Feat(index)!: Cree una nueva funcionalidad para registrar usuarios
 
 @media only screen and (max-width: 768px) {
+
     @mixin presentacion{
         color: transparent;
-        font-size: 3.7em;
+        font-size: 3.6em;
         font-weight: bold;
-        margin-bottom: -1rem;
-        margin-top: 0;
         cursor: pointer;
         text-align: left;
         transition: margin-left 0.5s ease;
     }
 
     .img-fondo {
-        margin-right: 75%;
-        opacity: 0.5;
+        margin-right: 40%;
+        opacity: 0.9;
+
+        img {
+            width: 45em;
+            height: auto;
+        }
     }
 
     .video {
@@ -159,7 +164,7 @@ $bg-color: #000503;
     }
 
     .vacio {
-        height: 22%;
+        height: 25%;
     }
 
     .econtainer {
@@ -168,35 +173,48 @@ $bg-color: #000503;
         justify-content: center;
         flex-direction: column;
         z-index: 1;
-        left: 0%;
         margin-left: 8%;
+        gap: 3.5rem;
     
         .hola {
             @include presentacion;
             animation: traslacion 1.8s forwards;
             animation-delay: 1s;
+
+            &:hover {
+                margin: 0
+            }
         }
     
         .soy {
             @include presentacion;
             animation: traslacion2 1.8s forwards;
             animation-delay: 1.5s;
+
+            &:hover {
+                margin: 0
             }
+        }
         
         .juan {
             @include presentacion;
             animation: traslacion2 1.8s forwards;
             animation-delay: 2s;
-        }
 
+            &:hover {
+                margin: 0
+            }
+        }
         .touch {
             display: inline-block;
+            position: absolute;
+            font-weight: 500;
             width: max-content;
             text-align: center;
             align-self: center;
-            margin-bottom: 6%;
             margin-right: 8%;
             color: white;
+            margin-bottom: -80%;
         }
     }
     .econtainer.active p.hola {
@@ -215,6 +233,7 @@ $bg-color: #000503;
 
 
     }
+
 
     @keyframes traslacionWhenActive {
     0% {
