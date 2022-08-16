@@ -1,4 +1,4 @@
-let juan = document.getElementById('juan')
+/*let juan = document.getElementById('juan')
 
 juan.addEventListener('mouseover', (event) => {
     element = event.target
@@ -7,4 +7,4 @@ juan.addEventListener('mouseover', (event) => {
 juan.addEventListener('mouseout', (event) => {
     element = event.target
     juan.innerHTML = '.juan'
-})
+})*/
