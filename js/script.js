@@ -1,7 +1,7 @@
 const $hola = document.getElementById('hola')
 const $soy = document.getElementById('soy')
 const $juan = document.getElementById('juan')
-
+const $touch = document.getElementById('touch')
 const $container = document.querySelector('.econtainer')
 
 const hover = event => {
@@ -66,7 +66,7 @@ var mobile = {
 document.addEventListener('click', e => {
 	if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i)) {
 		console.log('click')
-
+		$touch.innerText = '';
 		$container.classList.add('active')
 
 		$hola.textContent = 'Info.'
