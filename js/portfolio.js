@@ -1,16 +1,19 @@
-/*let juan = document.getElementById('juan')
+//Elementos:
+const $coinbase = document.getElementById('coinbase');
+const $users = document.getElementById('netflix');
+const $formulario = document.getElementById('formulario')
+const $netflix = document.getElementById('netflix');
 
-juan.addEventListener('mouseover', (event) => {
-    element = event.target
-    return juan.innerHTML = 'inicio'
+
+
+
+
+
+// Acciones: 
+$netflix.addEventListener('click', ()=> {
+    window.open('../html/portfolio/netflix_final/index.html', '_blank')
 })
-juan.addEventListener('mouseout', (event) => {
-    element = event.target
-    juan.innerHTML = '.juan'
-})*/
 
-const $link_netflix = document.getElementById('netflix');
-
-$link_netflix.addEventListener('click', ()=> {
-    window.open('../html/portfolio/Netflix/index.html', '_blank')
+$formulario.addEventListener('click', ()=> {
+    window.open('../html/portfolio/formulario/index.html', '_blank')
 })
