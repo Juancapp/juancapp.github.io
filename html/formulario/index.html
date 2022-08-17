@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <div class="container">
+        <button id="btn_dark" class="darkmode"><i class="icon bi bi-toggle-off"></i></button>
         <h3>Registrate en los formularios</h3>
         <div class="buttons">
             <button class="google-btn">
@@ -17,8 +19,8 @@
                 </picture>
                 <span>Registrarse con Google</span>
             </button>
-            <button class="twitter-btn">
-                <picture></picture>
+            <button id ="btn_twitter" class="twitter-btn">
+                <i class="bi bi-twitter"></i>
             </button>
         </div>
         <div class="separator">
@@ -53,4 +55,5 @@
         </form>
     </div>
 </body>
+<script src="js/script.js"></script>
 </html>

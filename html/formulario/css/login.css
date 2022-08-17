@@ -2,15 +2,22 @@
 
 * {
     font-family: 'Ubuntu', sans-serif;
+    transition: 0.7s ease;
 }
 
-body .dark {
-    background-color: #161717;
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: 0.7s ease;
 }
 
-h3 .dark {
-    color: white;
+.dark {
+    background-color: #161717!important;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .container {
     margin: auto;
@@ -20,6 +27,19 @@ h3 .dark {
     justify-content: center;
     gap: 30px;
     width: 450px;
+    align-self: center;
+}
+
+.container .darkmode {
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    align-self: flex-end;
+    display: flex;
+}
+
+.container .darkmode .icon {
+    font-size: 2.3em;
 }
 
 .buttons {
@@ -116,11 +136,6 @@ label span {
     font-weight: 700;
 }
 
-label span .dark {
-    font-weight: 700;
-    color: white;
-}
-
 .section-inputs label input {
     width: 80%;
     background-color: #f3f3f4;
@@ -131,26 +146,6 @@ label span .dark {
     font-size: 14pt;
 }
 
-.section-inputs label input .dark{
-    width: 80%;
-    background-color: #212121;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-    font-size: 14pt;
-}
-
-label input .dark {
-    width: 90%;
-    background-color: #f3f3f4;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-    font-size: 14pt;
-    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
-}
 
 label input {
     width: 90%;
@@ -169,18 +164,21 @@ label input:hover {
     box-shadow: 0 0 4px #eb50ff4f;
 }
 
-label input:hover .dark{
-    background-color: #454045;
-    border: solid 1px #f3f3f4;
-    box-shadow: 0 0 4px #eb50ff4f;
-    box-sizing: border-box;
-}
+
 
 label input:focus {
     background-color: white;
     box-shadow: 0 0 4px #eb50ff4f;
     outline: solid 1px #f3f3f4;
 
+}
+
+.input_dark {
+    background-color: #212121!important;
+}
+
+.input_dark:hover {
+    background-color: #3a3a3a!important;
 }
 
 .checkbox-label {
@@ -210,4 +208,17 @@ label input:focus {
 
 .submit-btn:hover {
     opacity: 0.75;
+}
+
+.h3_dark, .span_dark{
+    color: white!important;
+}
+
+.twitter-btn i {
+    font-size: 1.3em;
+    color: #1D9BF0;
+}
+
+.twitter_dark {
+    background-color: #212121!important;
 }
