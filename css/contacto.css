@@ -51,6 +51,7 @@ body a {
   position: relative;
   left: 20%;
   margin-bottom: 13rem;
+  z-index: -1;
 }
 .sec-frase h1 {
   text-align: left;
