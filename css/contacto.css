@@ -74,6 +74,7 @@ body a {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+  margin-bottom: 10rem;
 }
 .sec-carta .carta a {
   text-decoration: none;
@@ -136,12 +137,6 @@ body a {
     color: white;
     display: flex;
     width: 90%;
-  }
-  .sec-carta .carta h2 {
-    margin-bottom: 1em;
-  }
-  .sec-carta .carta span {
-    margin-bottom: 10em;
   }
 }
 

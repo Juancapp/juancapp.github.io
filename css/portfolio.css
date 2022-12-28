@@ -47,15 +47,14 @@ body a {
 }
 
 .econtainer {
-  width: min-content;
   margin-left: 15%;
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   gap: 5em;
   font-weight: 500;
+  padding-bottom: 10rem;
 }
 .econtainer .link {
   cursor: pointer;
@@ -71,10 +70,6 @@ body a {
 .econtainer .link .subtitle {
   color: #00c483;
   font-size: 1em;
-}
-
-.footer {
-  height: 33%;
 }
 
 @media only screen and (max-width: 768px) {
