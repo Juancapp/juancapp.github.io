@@ -8,14 +8,14 @@ const hover = event => {
 	element = event.target
 	if (element === $hola) return ($hola.innerHTML = 'Info.')
 	if (element === $soy) return ($soy.innerHTML = 'Portfolio')
-	if (element === $juan) return ($juan.innerHTML = 'Contacto')
+	if (element === $juan) return ($juan.innerHTML = 'Contact')
 }
 
 const over = event => {
 	element = event.target
 
-	if (element === $hola) return ($hola.innerHTML = 'Hola.')
-	if (element === $soy) return ($soy.innerHTML = 'Soy')
+	if (element === $hola) return ($hola.innerHTML = 'Hi.')
+	if (element === $soy) return ($soy.innerHTML = `I'm`)
 	if (element === $juan) return ($juan.innerHTML = 'Juan')
 }
 
