@@ -60,7 +60,7 @@ body {
   animation-delay: 1s;
 }
 .econtainer .hola:hover {
-  margin-left: 4rem;
+  margin-left: 2.7rem;
 }
 .econtainer .soy {
   color: transparent;
@@ -75,7 +75,7 @@ body {
   animation-delay: 1.5s;
 }
 .econtainer .soy:hover {
-  margin-left: 4rem;
+  margin-left: 2.7rem;
 }
 .econtainer .juan {
   color: transparent;
@@ -90,7 +90,7 @@ body {
   animation-delay: 2s;
 }
 .econtainer .juan:hover {
-  margin-left: 4rem;
+  margin-left: 2.7rem;
 }
 .econtainer .touch {
   display: none;

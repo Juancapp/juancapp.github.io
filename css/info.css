@@ -40,7 +40,7 @@ body a {
   margin-top: 8%;
   margin-left: 80%;
   cursor: pointer;
-  transition: transform 0.5s ease;
+  transition: transform 0.2s ease;
 }
 .header .juan:hover {
   transform: translateX(-15%);

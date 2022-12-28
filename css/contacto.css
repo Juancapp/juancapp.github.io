@@ -40,7 +40,7 @@ body a {
   margin-top: 8%;
   margin-left: 80%;
   cursor: pointer;
-  transition: transform 0.5s ease;
+  transition: transform 0.2s ease;
 }
 .header .juan:hover {
   transform: translateX(-15%);
@@ -79,18 +79,15 @@ body a {
 .sec-carta .carta a {
   text-decoration: none;
   color: #00c483;
-  transition: transform 0.5s ease;
+  transition: transform 0.2s ease;
 }
 .sec-carta .carta a:hover {
-  transform: translateX(2%);
+  transform: translateX(1%);
 }
 .sec-carta .carta span {
   color: #00c483;
-  transition: transform 0.5s ease;
 }
-.sec-carta .carta span:hover {
-  transform: translateX(2%);
-}
+
 
 .footer {
   height: 33%;
@@ -109,7 +106,6 @@ body a {
     margin-top: 1.65em;
     margin-left: 13em;
     cursor: pointer;
-    transition: transform 0.5s ease;
   }
   .header .juan:hover {
     transform: translateX(0%);

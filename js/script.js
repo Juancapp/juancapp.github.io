@@ -6,7 +6,6 @@ const $container = document.querySelector('.econtainer')
 
 const hover = event => {
 	element = event.target
-
 	if (element === $hola) return ($hola.innerHTML = 'Info.')
 	if (element === $soy) return ($soy.innerHTML = 'Portfolio')
 	if (element === $juan) return ($juan.innerHTML = 'Contacto')
