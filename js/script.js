@@ -6,7 +6,7 @@ const $container = document.querySelector('.econtainer')
 
 const hover = event => {
 	element = event.target
-	if (element === $hola) return ($hola.innerHTML = 'Info.')
+	if (element === $hola) return ($hola.innerHTML = 'Info')
 	if (element === $soy) return ($soy.innerHTML = 'Portfolio')
 	if (element === $juan) return ($juan.innerHTML = 'Contact')
 }
@@ -68,8 +68,8 @@ document.addEventListener('click', e => {
 		$touch.innerText = '';
 		$container.classList.add('active')
 
-		$hola.textContent = 'Info.'
+		$hola.textContent = 'Info'
 		$soy.textContent = 'Portfolio'
-		$juan.textContent = 'Contacto'
+		$juan.textContent = 'Contact'
 	}
 })
