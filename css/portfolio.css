@@ -49,6 +49,7 @@ body a {
 .econtainer {
   position: relative;
   display: flex;
+  width: 80%;
   flex-direction: column;
   justify-content: center;
   gap: 5em;
@@ -58,7 +59,8 @@ body a {
 }
 .econtainer .link {
   cursor: pointer;
-  width: max-content;
+  width: 100%;
+  word-wrap: normal;
   transition: margin-left 0.4s;
 }
 .econtainer .link:hover {
