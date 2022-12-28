@@ -75,24 +75,10 @@ body a {
 
 @media only screen and (max-width: 768px) {
   .juan {
-    position: fixed;
-    display: inline-block;
-    color: white;
     font-size: 1.3em;
     padding-top: 10%;
-    font-weight: 600;
-    cursor: pointer;
-    right: -4%;
-    transition: transform 0.5s ease;
-  }
-  .juan:hover {
-    z-index: 1;
   }
   .econtainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5em;
     padding-left: 1rem;
   }
 

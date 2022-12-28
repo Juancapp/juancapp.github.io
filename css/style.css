@@ -121,29 +121,15 @@ body {
     margin-right: 15em;
     opacity: 0.9;
   }
-  .video {
-    object-fit: cover;
-    position: fixed;
-    z-index: -2;
-  }
   .vacio {
     height: 10em;
   }
   .econtainer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 1;
     margin-left: 8%;
     gap: 3.5rem;
   }
   .econtainer .hola {
-    color: transparent;
     font-size: 3.6em;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: left;
     transition: margin-left 0.5s ease;
     animation: traslacion 0.9s forwards;
     animation-delay: 1s;
@@ -152,11 +138,7 @@ body {
     margin: 0;
   }
   .econtainer .soy {
-    color: transparent;
     font-size: 3.6em;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: left;
     transition: margin-left 0.5s ease;
     animation: traslacion2 0.9s forwards;
     animation-delay: 1.5s;
@@ -165,11 +147,7 @@ body {
     margin: 0;
   }
   .econtainer .juan {
-    color: transparent;
     font-size: 3.6em;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: left;
     transition: margin-left 0.5s ease;
     animation: traslacion2 0.9s forwards;
     animation-delay: 2s;

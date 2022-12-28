@@ -28,30 +28,31 @@ body a {
   position: fixed !important;
 }
 
-.header {
-  width: 100%;
-  height: 33%;
-}
-.header .juan {
+.juan {
   position: fixed;
+  display: inline-block;
+  text-align: center;
   color: white;
+  padding-top: 5%;
   font-size: 1.5em;
   font-weight: 600;
-  margin-top: 8%;
-  margin-left: 80%;
   cursor: pointer;
-  transition: transform 0.2s ease;
+  right: 10%;
+  transition: margin 0.2s ease;
+  z-index: 2;
 }
-.header .juan:hover {
-  transform: translateX(-15%);
+
+.juan:hover {
+  margin-right: 15px;
 }
 
 .sec-frase {
   height: max-content;
   position: relative;
   left: 20%;
-  margin-bottom: 13rem;
+  margin-bottom: 6rem;
   z-index: -1;
+  padding-top: 10rem;
 }
 .sec-frase h1 {
   text-align: left;
@@ -82,40 +83,25 @@ body a {
   transition: transform 0.2s ease;
 }
 .sec-carta .carta a:hover {
-  transform: translateX(1%);
+  transform: translateX(0.5%);
 }
 .sec-carta .carta span {
   color: #00c483;
-}
-
-
-.footer {
-  height: 33%;
 }
 
 @media only screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
-  .header .juan {
-    position: fixed;
-    display: inline-block;
-    color: white;
+  .juan {
     font-size: 1.3em;
-    font-weight: 600;
-    margin-top: 1.65em;
-    margin-left: 13em;
-    cursor: pointer;
-  }
-  .header .juan:hover {
-    transform: translateX(0%);
+    padding-top: 10%;
   }
   .sec-frase {
     height: min-content;
-    position: relative;
     left: 0%;
     padding-left: 5%;
-    margin-bottom: 13rem;
+    margin-bottom: 8rem;
   }
   .sec-frase h1 {
     width: 60%;
