@@ -1,9 +1,15 @@
 import Navbar from "./Components/Navbar/Navbar";
+import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact/Contact";
+import Presentation from "./Components/Presentation/Presentation";
 
 function App() {
   return (
-    <div className="flex flex-col h-screen w-screen bg-white">
+    <div>
       <Navbar />
+      <Presentation />
+      <Projects />
+      <Contact />
     </div>
   );
 }
