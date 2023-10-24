@@ -1,0 +1,107 @@
+$color-gris: #808080;
+$bg-color: #141414;
+$bg-hover: #E5E5E5;
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $bg-color;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.logo {
+    width: 6.2rem;
+    margin-top: 1.2rem;
+    margin-left: 3.55rem;
+    cursor: pointer;
+}
+
+.econtainer {
+    width: 100%;
+    margin-top: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .titulo {
+        h1 {
+            color: white;
+            font-size: 4em;
+        }
+    }
+
+    .paleta {
+        margin-top: 2.2rem;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+
+        .perfil {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;    
+            img {
+                width: 12.2em;
+                height: 12.2em;
+                border-radius: 0.5rem;
+                border: 0.25em solid transparent;
+            }
+
+            span {
+                color: $color-gris;
+                font-size: 1.5rem;
+            }
+
+            .icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 12.2em;
+                height: 12.5em;
+                border-radius: 0.5rem;
+                i {
+                    font-size: 7rem;
+                }
+            }
+            &:hover {
+                img {
+                    @extend img;
+                    border: 4px solid white;
+                }
+                .icon {
+                    @extend .icon;
+                    background-color: $bg-hover;
+                }
+                span {
+                    @extend span;
+                    color: $bg-hover;
+                }
+                cursor: pointer;
+            }
+
+        }
+    }
+
+    .boton {
+        margin-top: 6rem;
+        border: 1px solid $color-gris;
+        background-color: $bg-color;
+        color: $color-gris;
+        width: 17.3rem;
+        height: 3.5rem;
+        font-size: 1.5rem;
+    
+        &:hover {
+        @extend .boton;
+        border: 1px solid white;
+        color: $bg-hover;
+        }
+    }
+}
+
