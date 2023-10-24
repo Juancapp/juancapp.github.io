@@ -1,9 +1,6 @@
-const links = [
-  { name: "Open roles", href: "#" },
-  { name: "Internship program", href: "#" },
-  { name: "Our values", href: "#" },
-  { name: "Meet our leadership", href: "#" },
-];
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
 
 export default function Contact() {
   return (
@@ -40,21 +37,29 @@ export default function Contact() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Work with us
+            Contact
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            You can contact me as follows
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-            {links.map((link) => (
-              <a key={link.name} href={link.href}>
-                {link.name} <span aria-hidden="true">&rarr;</span>
-              </a>
-            ))}
+          <div className="flex gap-x-6 gap-y-6 text-base font-semibold leading-7 text-white">
+            <a href="https://github.com/Juancapp" target="blank">
+              <AiFillGithub size="2em" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jandrescappuccio/"
+              target="blank"
+            >
+              <FaLinkedin size="2em" />
+            </a>
+            <div className="flex align-middle gap-2">
+              <GrMail size="2em" color="white" />
+              <p className="inline-block text-s font-light">
+                juanitocamo3@gmail.com
+              </p>
+            </div>
           </div>
         </div>
       </div>
