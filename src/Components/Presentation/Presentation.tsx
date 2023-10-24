@@ -45,7 +45,7 @@ const Presentation = () => {
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
           <img
-            src="https://i.ibb.co/n6VdVyY/IMG-20230320-233027.jpg"
+            src="https://i.ibb.co/3FdXf6s/Photo-Room-20231024-004305-min.jpg"
             alt="mockup"
             className="rounded-lg"
           />

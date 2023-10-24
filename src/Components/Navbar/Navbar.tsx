@@ -9,7 +9,6 @@ function classNames(...classes: string[]) {
 
 export default function Navbar() {
   const [navigation, setNavigation] = useState([
-    { name: "Home", section: "presentation", current: true },
     { name: "Projects", section: "projects", current: false },
     { name: "Contact", section: "contact", current: false },
   ]);
