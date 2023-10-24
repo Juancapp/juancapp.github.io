@@ -37,10 +37,6 @@ const Presentation = () => {
               See my CV
               <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
             </button>
-            {/* <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">
-              See my CV
-              <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
-            </button> */}
           </a>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
