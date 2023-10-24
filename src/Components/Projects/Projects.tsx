@@ -10,7 +10,9 @@ const Projects = () => {
     <div className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
+          <h2 className="text-2xl font-bold text-gray-900" id="projects">
+            Projects
+          </h2>
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {displayedProjects.map((project) => (
               <div key={project.name} className="group relative">
@@ -33,12 +35,12 @@ const Projects = () => {
               </div>
             ))}
           </div>
-          {projects.length > 3 && !showAll && (
+          {!showAll && (
             <button
               onClick={() => setShowAll(true)}
-              className="mt-4 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-slate-800 hover:bg-slate-900"
+              className="mt-4 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-slate-800 hover:bg-slate-900 animate-bounce"
             >
-              Show more...
+              Show more projects...
             </button>
           )}
         </div>
