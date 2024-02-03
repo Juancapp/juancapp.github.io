@@ -30,7 +30,7 @@ const Presentation = () => {
             other points of view.
           </p>
           <a
-            href="https://drive.google.com/file/d/1SyL62wx4KqT4oaLcAQxK3bZfqpgMkvVi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1G3PUcMhFpWRNKYgW3IICvZyvNDuixb-L/view?usp=sharing"
             target="blank"
           >
             <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-slate-700 to-slate-900 hover:from-slate-900 hover:to-slate-700  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">
