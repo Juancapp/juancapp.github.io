@@ -12,11 +12,11 @@ export const projects: Array<{
   href: string;
 }> = [
   {
-    name: "Work in progress: MERN stack application with Typescript to simulate the recharge of a digital ticket office in Montevideo, Uruguay. In addition, Firebase is used to manage sessions. The design is inspired by the original STM website.",
-    description: "STM tickets recharge",
-    imageSrc: "https://i.ibb.co/PjHyPRv/Captura-desde-2023-10-23-14-54-19.png",
-    imageAlt: "STM",
-    href: "https://github.com/Juancapp/STM",
+    name: "Coding challenge app that gets data from the Rick and Morty API done in a very short period of time. You can paginate and filter from the back-end the data by name, planet and gender. Includes login and registration with Firebase. In my Github link are all the instructions to run it.",
+    description: "Rick and Morty",
+    imageSrc: "https://i.ibb.co/nkhCg5D/Captura-desde-2023-10-23-21-05-12.png",
+    imageAlt: "Rick and Morty.",
+    href: "https://github.com/Juancapp/rick-front",
   },
   {
     name: "Final project of the Radium Rocket course. Full-Stack app for managing projects, employees and workload. First experience working in a team and using Scrum. In Github you can find the link to the deploy in Vercel",
@@ -24,13 +24,6 @@ export const projects: Array<{
     imageSrc: "https://i.ibb.co/HNTV3B4/Captura-desde-2023-10-23-02-37-03.png",
     imageAlt: "Trackgenix",
     href: "https://alfon-b-trackgenix-e1mckk0x0-juanitocamo3-gmailcom.vercel.app/home",
-  },
-  {
-    name: "Coding challenge app that gets data from the Rick and Morty API done in a very short period of time. You can paginate and filter from the back-end the data by name, planet and gender. Includes login and registration with Firebase. In my Github link are all the instructions to run it.",
-    description: "Rick and Morty",
-    imageSrc: "https://i.ibb.co/nkhCg5D/Captura-desde-2023-10-23-21-05-12.png",
-    imageAlt: "Rick and Morty.",
-    href: "https://github.com/Juancapp/rick-front",
   },
   {
     name: "MERN E-commerce application. You can add items to the cart, purchase them and view the details of each product. You can also filter by different criteria. First time implementing UseContext. In Github you can find the link to the deploy in Vercel ",
