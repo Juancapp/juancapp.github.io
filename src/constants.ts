@@ -12,6 +12,13 @@ export const projects: Array<{
   href: string;
 }> = [
   {
+    name: "Refactor Cocoa E-commerce application built with TypeScript. The front-end is powered by React, while the back-end uses NestJS and Fastify. The app features a user system with profile pictures stored in AWS S3, and a purchase history function that generates a detailed PDF of payment information. Transactions automatically update to ‘success’ after 30 minutes, a feature implemented using a cron schedule. Zustand is used for global state management and Tanstack Query handles all server queries. The application is optimized to manage necessary data and avoid unnecessary data handling, showcasing a comprehensive understanding of full-stack development.",
+    description: "Cocoa Ecommerce V2",
+    imageSrc: "/images/CC.png",
+    imageAlt: "Cocoa Version 2.",
+    href: "https://github.com/Juancapp/shopping-cart-v2",
+  },
+  {
     name: "Coding challenge app that gets data from the Rick and Morty API done in a very short period of time. You can paginate and filter from the back-end the data by name, planet and gender. Includes login and registration with Firebase. In my Github link are all the instructions to run it.",
     description: "Rick and Morty",
     imageSrc: "https://i.ibb.co/nkhCg5D/Captura-desde-2023-10-23-21-05-12.png",
