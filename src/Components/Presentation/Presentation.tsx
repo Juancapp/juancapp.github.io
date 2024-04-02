@@ -16,13 +16,13 @@ const Presentation = () => {
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
             Hi, I'm Juan Andrés, I'm {age} years old, I'm from Uruguay and I'm a
-            Full Stack Web Developer [MERN] at Radium Rocket.
+            Full Stack Web Developer [MERN] with one year of experience.
           </p>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Currently I work in this company in which I try to contribute with
-            my knowledge, my disposition and my empathy to achieve the best
-            performance. I am passionate about teamwork and I am one of those
-            who believe that: "More camaraderie, better Results".
+            I work very and always trying to contribute with my knowledge, my
+            disposition and my empathy to achieve the best performance. I am
+            passionate about teamwork and I am one of those who believe that:
+            "More camaraderie, better Results".
           </p>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
             I love to transmit my values in the company and at the same time I
