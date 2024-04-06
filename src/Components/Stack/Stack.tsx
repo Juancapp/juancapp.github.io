@@ -13,7 +13,7 @@ export default function Stack() {
   };
 
   return (
-    <div className="bg-white sm:py-32">
+    <div className="bg-white sm:py-32 pb-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-2xl pb-10 font-semibold leading-8 text-gray-900">
           Mastering the digital realm: a showcase of my tech prowess

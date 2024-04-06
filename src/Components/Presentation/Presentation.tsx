@@ -6,7 +6,7 @@ const age = Math.floor(ageInMilliseconds / 31557600000);
 const Presentation = () => {
   return (
     <section
-      className="bg-gradient-to-r from-slate-900 to-slate-700"
+      className="bg-gradient-to-r from-slate-900 to-slate-700 relative mb-10 md:mb-0"
       id="presentation"
     >
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -39,12 +39,8 @@ const Presentation = () => {
             </button>
           </a>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
-          <img
-            src="https://i.ibb.co/3FdXf6s/Photo-Room-20231024-004305-min.jpg"
-            alt="mockup"
-            className="rounded-lg"
-          />
+        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg absolute bottom-0 right-20">
+          <img src="./images/me.png" alt="mockup" className="w-[60%]  h-fit" />
         </div>
       </div>
     </section>
