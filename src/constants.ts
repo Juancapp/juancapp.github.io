@@ -14,7 +14,7 @@ export const projects: Array<{
   {
     name: "Refactor Cocoa E-commerce application built with TypeScript. The front-end is powered by React, while the back-end uses NestJS and Fastify. The app features a user system with profile pictures stored in AWS S3, and a purchase history function that generates a detailed PDF of payment information. Transactions automatically update to ‘success’ after 30 minutes, a feature implemented using a cron schedule. Zustand is used for global state management and Tanstack Query handles all server queries. The application is optimized to manage necessary data and avoid unnecessary data handling, showcasing a comprehensive understanding of full-stack development.",
     description: "Cocoa Ecommerce V2",
-    imageSrc: "/images/CC.png",
+    imageSrc: "/images/CC.webp",
     imageAlt: "Cocoa Version 2.",
     href: "https://github.com/Juancapp/shopping-cart-v2",
   },
