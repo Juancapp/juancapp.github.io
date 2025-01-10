@@ -4,7 +4,7 @@ export const images: { src: string; alt: string }[] = [
     alt: "MongoDB",
   },
   {
-    src: "https://geekflare.com/wp-content/uploads/2023/01/expressjs-680x220.png",
+    src: "images/express-js.webp",
     alt: "ExpressJS",
   },
   {

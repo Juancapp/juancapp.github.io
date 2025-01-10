@@ -6,10 +6,10 @@ const age = Math.floor(ageInMilliseconds / 31557600000);
 const Presentation = () => {
   return (
     <section
-      className="bg-gradient-to-r from-slate-900 to-slate-700 relative mb-10 md:mb-0 w-full flex justify-between pt-8 px-10 lg:px-32 gap-70 pb-10 lg:pb-0"
+      className="bg-gradient-to-r from-slate-900 to-slate-700 relative mb-10 md:mb-0 w-full flex justify-between pt-8 px-10 lg:px-32 gap-70 pb-10 lg:pb-0 items-end"
       id="presentation"
     >
-      <div className="">
+      <div>
         <h1 className="text-white mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
           About me
         </h1>
@@ -36,9 +36,7 @@ const Presentation = () => {
           </button>
         </a>
       </div>
-      <div className="hidden lg:inline-block">
-        <img src="./images/me.webp" alt="mockup" className="max-w-md opacity-100" />
-      </div>
+        <img src="./images/me.png" alt="mockup" className="w-[35%] h-max opacity-90 hidden lg:inline-block align-bottom"/>
     </section>
   );
 };
