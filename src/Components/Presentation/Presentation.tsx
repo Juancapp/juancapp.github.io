@@ -26,7 +26,7 @@ const Presentation = () => {
         I invite you to learn more about my experience and education on LinkedIn and on my Curriculum Vitae.
         </p>
         <a
-          href="https://drive.google.com/file/d/1ZAHxE2rAaEd05u1ADJ_0FTjIyRUtF5ga/view?usp=sharing"
+          href="https://drive.google.com/file/d/1xv6nUDxVpXgiQWcmseFnqtFd-TSouL6P/view?usp=sharing"
           target="blank"
           className="inline-block"
         >
