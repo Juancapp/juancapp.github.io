@@ -1,7 +1,4 @@
-const birthDate = new Date("1997-09-16");
-const currentDate = new Date();
-const ageInMilliseconds: number = currentDate.getTime() - birthDate.getTime();
-const age = Math.floor(ageInMilliseconds / 31557600000);
+
 
 const Presentation = () => {
   return (
