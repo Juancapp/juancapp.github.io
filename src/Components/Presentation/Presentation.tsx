@@ -14,16 +14,9 @@ const Presentation = () => {
           About me
         </h1>
         <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          Hi, I'm Juan Andrés, I'm {age} years old, I'm from Uruguay and I'm a
-          Full Stack Web Developer [MERN] with a year and a half of experience.
-        </p>
-        <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          I love to transmit my values in the company and at the same time I am
-          passionate to learn from different visions, perspectives and other
-          points of view.
-        </p>
-        <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-        I invite you to learn more about my experience and education on LinkedIn and on my Curriculum Vitae.
+          Full stack Developer with extensive experience in NodeJS, ReactJS and
+Object Oriented Programming, currently learning to work with .NET and Angular contributing my ideas and solutions with
+the goal of continuing my development as a Software Developer.
         </p>
         <a
           href="https://drive.google.com/file/d/1vuz-GOZIqK5Rw20D4cYQZ3uLoGoFd6d4/view?usp=sharing"
