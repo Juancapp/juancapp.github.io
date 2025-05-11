@@ -21,13 +21,13 @@ export default function Stack() {
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           {images.map((img, index) => (
             <img
-              className={className(index)}
-              src={img.src}
-              alt={img.alt}
-              width={width}
-              height={height}
-              key={index}
-            />
+    className={`${className(index)} ${index === images.length - 1 ? "col-span-full" : ""}`}
+    src={img.src}
+    alt={img.alt}
+    width={width}
+    height={height}
+    key={index}
+  />
           ))}
         </div>
       </div>
