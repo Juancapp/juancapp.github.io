@@ -3,7 +3,7 @@
 const Presentation = () => {
   return (
     <section
-      className="bg-gradient-to-r from-slate-900 to-slate-700 relative mb-10 md:mb-0 w-full flex justify-between pt-8 px-10 lg:px-32 gap-70 pb-10 lg:pb-0 items-end"
+      className="bg-gradient-to-r from-slate-900 to-slate-700 relative mb-10 md:mb-0 w-full flex justify-between px-10 lg:px-32 gap-70 pb-10 lg:pb-0 items-end"
       id="presentation"
     >
       <div>
