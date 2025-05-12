@@ -6,7 +6,7 @@ const Presentation = () => {
       className="bg-gradient-to-r from-slate-900 to-slate-700 relative mb-10 md:mb-0 w-full flex justify-between px-10 lg:px-32 gap-70 pb-10 lg:pb-0 items-end"
       id="presentation"
     >
-      <div>
+      <div class="self-center">
         <h1 className="text-white mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
           About me
         </h1>
